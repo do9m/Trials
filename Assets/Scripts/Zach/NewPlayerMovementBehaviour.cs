@@ -111,6 +111,7 @@ namespace Zach
             {
                 _moveVector.y = jumpPower;
                 _animator.SetTrigger("OnJump");
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/general_stone_footstep");
             }
             //Apply the speed
             speed *= _magExponent;
